@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: 'insanibc';
+    src: url('assets/font/GreasySpoonNF.ttf') format('truetype')
+}
+
+html, body{
+    height: 100%;
+    overflow: hidden;
+}
+
+html body {
+    font-family: 'insanibc';
+    margin-top: 120px;
+    margin-bottom: 85px;
+}
+
+.img-medium{
+    width: 300px;
+    height: 300px;
+}
+
+
+.spinner{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
